@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html" charset="UTF-8" />
+
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge"/>
+  <link href='https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700' rel='stylesheet'>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+  <script type="text/javascript" src="hanis_min.js"> </script>
+  <style>
+  	.btn-primary {
+    color: #fff;
+    background-color: #404040;
+    border-color: #262626;
+	font-family:Roboto Condensed;
+	width: fit-content;
+}
+</style>
+  
+
+</head>
+<body oncontextmenu="return false" style="overflow:hidden;background-color:#7d776b;" onload="HAniS.setup(
+'basename = Tiempo Severo/  (*).BMP \n\
+num_frames = 31 \n\
+base_starting_number = 1, 1 \n\
+background_static=n \n\
+window_size = 1300,600 \n\
+controls = annotate, first, backward, startstop, forward, last, speed, looprock, toggle \n\
+controls_style = display:flex;flex-flow:row; \n\
+dwell = 200 \n\
+pause = 1200 \n\
+startstop_labels =Animar,Pausar \n\
+speed_labels = - Velocidad, + Velocidad \n\
+toggle_size = 5,10,3 \n\
+check_image_size = f\n\
+toggle_colors = black, red, white \n\
+active_zoom = true \n\
+keep_zoom = true \n\
+image_preserve = 0,0,900,25 \n\
+annotate_position = -50, 100 \n\
+buttons_style = flex:auto;margin:2px;width: fit-content;background:#ffcc00;border-color: #947a11;border-radius: 3px;font-family:Roboto Condensed; ', 'handiv')">
+<div align="center">
+<p> </p>
+<div class="btn-group btn-group-xs" >
+
+<button type="button" class="btn btn-primary" onclick="HAniS.newBasenames('Tiempo Severo/  (*).BMP',1,1,31)">Granizo</button>
+
+
+	</div>
+	<div class="btn-group btn-group-xs" >
+
+<button type="button" class="btn btn-primary" onclick="HAniS.newBasenames('Frentes/  (*).BMP',1,1,31)">Frentes</button>
+
+
+	</div>
+
+		<div class="btn-group btn-group-xs" >
+
+<button type="button" class="btn btn-primary" onclick="HAniS.newBasenames('Dinamica para TS/  (*).BMP',1,1,31)">Din&aacute;mica para TS</button>
+
+	</div>
+
+
+
+<p></p>
+
+  <div id="handiv" style="width:800px;background-color:#7d776b;width: fit-content">
+  </div>
+ 
+
+	   
+
+
+</div>
+  
+</body>
+</html>
